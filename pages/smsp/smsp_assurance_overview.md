@@ -45,7 +45,7 @@ Once the TOM is accepted and technical testing is complete Acme Online will be a
 
 --- 
 
-## Scenario 1 - New Supplier with a customer
+## Scenario 2 - New Supplier with a customer
 Acme Apps have developed in conjunction with a local care organisation a new mobile application for pre-op assessments. The pre-op form is completed by a healthcare professional along with the patient. The supplier would like th application to link into the NHS Digital demographics service. Acme Apps are aware they need to be assured by NHS Digital, and would like to understand the process.
 
 ### Scenario 2 Assessment
