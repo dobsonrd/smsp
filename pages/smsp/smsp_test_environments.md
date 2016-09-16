@@ -18,6 +18,6 @@ More details on opentest and request access can be found here - [http://systems.
 ### Path-to-Live Formal Development and Integration Enviroments (N3)
 The formal path-to-live environments are hosted on N3 and as such the Information Governance Statement of Conformance (IGSoC) is required before use, as this is a predicate to connecting to N3.
 
-More details on the environments and requesting access can be found here - [http://www.assurancesupport.digital.nhs.uk](http://www.assurancesupport.digital.nhs.uk)
+More details on the environments acan be found here (N3 link required)- [http://www.assurancesupport.digital.nhs.uk](http://www.assurancesupport.digital.nhs.uk)
 
 {% include links.html %}
