@@ -21,7 +21,7 @@ Currently they have no firm customers, but are confident they have a viable prod
 
 Acme Online are aware they need to be assured by NHS Digital, and would like to understand the process.
 
-### Scenario 1 Assessment
+### Assessment
 The key point with this scenario (from an NHS Digital perspective) is that the supplier currently has no customer. The aim is to support the development of the product to a phase that NHS Digital can technically assure the solution. Once Acme Online have found a customer, the assurance process will be formally completed through a first of type deployment with their customer. Once completed the solution will be 'fully assured'.
 
 ### How Scenario 1 is played out
@@ -48,7 +48,7 @@ Once the TOM is accepted and technical testing is complete Acme Online will be a
 ## Scenario 2 - New App Supplier with a customer
 Acme Apps have developed in conjunction with a local care organisation a new mobile application for pre-op assessments. The pre-op form is completed by a healthcare professional along with the patient. The supplier would like th application to link into the NHS Digital demographics service. Acme Apps are aware they need to be assured by NHS Digital, and would like to understand the process.
 
-### Scenario 2 Assessment
+### Assessment
 This scenario involves both a supplier and customer (typically a care organisation), meaning the assurance can progress all the way to a live first of type (assuming the usage and settings is accepted by NHS Digital).
 
 ### How Scenario 2 is played out
