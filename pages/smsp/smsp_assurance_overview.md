@@ -15,7 +15,7 @@ Through the following two scenarios of the outline of assurance is explained.
 ## Scenario 1 - New App Supplier with no customer
 Acme Online are developing a new online application providing clinical workflow management for health care professional, they would like to compare the local demographics (Patient Name, DOB, NHS Number, Address, Sex, Registered GP) with the NHS Digital Demographics system, and provide the clinician with the opportunity to update the local held data.
 
-Their intended customers are mainly NHS healthcare trusts, but there is the possibility that they may provide the solution to private care providers.
+Their intended customers are mainly NHS healthcare trusts.
 
 Currently they have no firm customers, but are confident they have a viable product and would like to progress development. 
 
