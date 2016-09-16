@@ -28,7 +28,7 @@ The key point with this scenario (from an NHS Digital perspective) is that the s
 1. The developer can use this site to understand how to develop against in the SMSP API. The [getting started](smsp_getting_started.html) page will allow a developer with suitable [environment](smsp_test_environments.html) access to very quickly connect to the SMSP API and start playing using the [test data](smsp_test_data.html) provided.
 2. The developed will be able to use [Test tools](smsp_test_tools.html) for local only development, and online  [environments](smsp_test_environments.html) available via N3 or Non-N3 connections.
 2. Once the developer has understood the initial requirements to call the SMSP API, they will need to understand the web  service interface behaviour requirements (error handling, exceptions, vocabs), and the wider [foundation](foundations_reqs.html) and [demographics](demographics_reqs.html) functional requirements. These requirements cover such things as IG, Audit, Demographics specific.
-3. The developer will work to the point that the solution has implemented:
+3. The developer will work to the point that the solution has implemented.
 ..* the web service interface behaviours 
 ..* the foundation functional requirements
 ..* the demographics functional requirements
