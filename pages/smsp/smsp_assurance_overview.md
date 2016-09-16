@@ -29,12 +29,16 @@ The key point with this scenario (from an NHS Digital perspective) is that the s
 2. The developed will be able to use [Test tools](smsp_test_tools.html) for local only development, and online  [environments](smsp_test_environments.html) available via N3 or Non-N3 connections.
 2. Once the developer has understood the initial requirements to call the SMSP API, they will need to understand the web  service interface behaviour requirements (error handling, exceptions, vocabs), and the wider [foundation](foundations_reqs.html) and [demographics](demographics_reqs.html) functional requirements. These requirements cover such things as IG, Audit, Demographics specific.
 3. The developer will work to the point that the solution has implemented.
+
 ..* the web service interface behaviours 
 ..* the foundation functional requirements
 ..* the demographics functional requirements
+
 4a. The supplier will provide two artifacts to NHS Digital:
+
 ..* Acme Online will test the developed interface against the Toolkit Workbench (TKW) (Test tool](smsp_test_tools.html). This tool provides a suite of automated tests, which generate evidence for submission to NHS Digital.
 ..* At the same time Acme Online will complete a Target Operating Model for submission to NHS Digital. 
+
 5. Assuming technical tests have passed, the next step is to connect into a Path-to-Live (PTL) environment. This step provides value to Acme Online as they will learn the endpoint registration steps and pipe-clean their network connect, important steps prior to going live.
 6. Once successfully connected to the PTL environment Acme Online will be asked to performed some limited testing.
 7. End of Technical Assurance.
