@@ -182,7 +182,7 @@ table th[class*="col-"] {
 
 
 table td:first-child {
-    width: 150px;
+    /*width: 150px;*/
     /*font-weight:bold;*/
 }
 
@@ -1153,9 +1153,4 @@ div.box.box1 {
     img[src$=".svg"] {
         width: 100%;
     }
-}
-
-h4.panel-title {
-    padding-top: 0px;
-    margin-top: 0px;
 }
