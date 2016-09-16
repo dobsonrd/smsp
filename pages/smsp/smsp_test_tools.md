@@ -21,6 +21,6 @@ TKW contains two tools;
 
 **Autotest Manager** is a GUI driven fully automated test tool, which orchestrates the execution of multiple tests using TKW as the test engine. The Autotest Manager has recently been updated to include a ‘single run’ mode which effectively offers, via the GUI, the same functions as the TKW command line.
 
-- See more at: http://developer.nhs.uk/testcentre/itk-testbench/
+- See more at: [http://developer.nhs.uk/testcentre/itk-testbench/](http://developer.nhs.uk/testcentre/itk-testbench/)
 
 {% include links.html %}
