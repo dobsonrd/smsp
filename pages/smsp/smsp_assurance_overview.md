@@ -12,7 +12,7 @@ toc: false
 
 Through the following two scenarios of the outline of assurance is explained.
 
-## Scenario 1 - New Supplier no customer
+## Scenario 1 - New App Supplier with no customer
 Acme Online are developing a new online application providing clinical workflow management for health care professional, they would like to compare the local demographics (Patient Name, DOB, NHS Number, Address, Sex, Registered GP) with the NHS Digital Demographics system, and provide the clinician with the opportunity to update the local held data.
 
 Their intended customers are mainly NHS healthcare trusts, but there is the possibility that they may provide the solution to private care providers.
@@ -45,7 +45,7 @@ Once the TOM is accepted and technical testing is complete Acme Online will be a
 
 --- 
 
-## Scenario 2 - New Supplier with a customer
+## Scenario 2 - New App Supplier with a customer
 Acme Apps have developed in conjunction with a local care organisation a new mobile application for pre-op assessments. The pre-op form is completed by a healthcare professional along with the patient. The supplier would like th application to link into the NHS Digital demographics service. Acme Apps are aware they need to be assured by NHS Digital, and would like to understand the process.
 
 ### Scenario 2 Assessment
