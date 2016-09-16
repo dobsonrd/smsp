@@ -66,6 +66,10 @@ entries:
     output: web, pdf
     folderitems:
   
+    - title: Assurance Overview
+      url: /smsp_assurance_process_fot.html
+      output: web,pdf
+      
     - title: Assurance Process FoT
       url: /smsp_assurance_process_fot.html
       output: web,pdf
