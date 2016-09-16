@@ -21,4 +21,10 @@ Note: one an assessment has been performed by a supplier, the TOM will typically
 
 A copy of the Target Operating Model spreadsheet it available [here](Target Operating Model - Spine Mini Services - Self-Evaluation Checklist v0.10.xls)
 
+{% include important.html content="An underlying theme of the Target Operating Model is “Responsibility”. The deploying organisations own and are responsible for both the systems and the data in their local environment.
+In terms of accessing the NHS Digital SMSP, deploying organisations must ultimately take responsibility for discharging these obligations to assess the risks which exist within their local context. Any other centrally imposed approach stifles local innovation and is not scalable.
+By defining a clear and documented assessment set (with associated guidelines and processes), the Target Operating Model provided the framework within which the local deploying organisaiton can discharge their obligations." %}
+
+
+
 {% include links.html %}
