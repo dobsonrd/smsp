@@ -1,0 +1,87 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: SMSP
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Getting Started
+      url: /smsp_getting_started.html
+      output: web, pdf
+
+    - title: News
+      url: /news.html
+      output: web, pdf
+
+    - title: Capabilities
+      url: /smsp_capabilities.html
+      output: web, pdf
+
+    - title: Glossary
+      url: /smsp_glossary.html
+      output: web, pdf
+  
+  - title: Explore
+    output: web, pdf
+    folderitems:
+  
+    - title: Reference Implementation
+      url: /smsp_ref_impl.html
+      output: web,pdf
+      type: homepage
+
+  - title: Development Guidance
+    output: web, pdf
+    folderitems:
+  
+    - title: Development Assets
+      url: /smsp_dev_assets.html
+      output: web,pdf
+      type: homepage
+
+  - title: Test and Assurance
+    output: web, pdf
+    folderitems:
+  
+    - title: Assurance Process FoT
+      url: /smsp_assurance_process_fot.html
+      output: web,pdf
+
+    - title: Assurance Process Post FoT
+      url: /smsp_assurance_process_post.html
+      output: web,pdf
+
+    - title: Test Tools
+      url: /smsp_test_tools.html
+      output: web,pdf
+
+    - title: Test Environments
+      url: /smsp_test_environments.html
+      output: web,pdf
+
+    - title: Test Data
+      url: /smsp_test_data.html
+      output: web,pdf
