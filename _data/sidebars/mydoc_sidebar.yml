@@ -69,7 +69,11 @@ entries:
     - title: Assurance Overview
       url: /smsp_assurance_overview.html
       output: web,pdf
-      
+
+    - title: Target Operating Model
+      url: /smsp_tom.html
+      output: web,pdf  
+   
     - title: Assurance Process FoT
       url: /smsp_assurance_process_fot.html
       output: web,pdf
