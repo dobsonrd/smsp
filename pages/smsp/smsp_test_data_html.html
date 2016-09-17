@@ -9,9 +9,34 @@ toc: false
 ---
 
 <h3>OpenTest - Test Data Details</h3>
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">NHS_NUMBER</th>
+<th align="left">DATE_OF_BIRTH</th>
+<th align="left">FAMILY_NAME</th>
+<th align="left">GIVEN_NAME</th>
+<th align="left">GENDER</th>
+<th align="left">POST_CODE</th>
 
-<ul>
+</tr>
+</thead>
+<tbody>
+
 {% for patient in site.data.open_test_data %}
-  <li>{{ patient.FAMILY_NAME }}</li>
+<tr>
+<td align="left" markdown="1">patient.NHS_NUMBER</td>
+<td align="left" markdown="1">patient.DATE_OF_BIRTH</td>
+<td align="left" markdown="1">patient.FAMILY_NAME</td>
+<td align="left" markdown="1">patient.GIVEN_NAME</td>
+<td align="left" markdown="1">patient.GENDER</td>
+<td align="left" markdown="1">patient.POST_CODE</td>
+</tr>
 {% endfor %}
-</ul>
+
+</tbody>
+</table>
