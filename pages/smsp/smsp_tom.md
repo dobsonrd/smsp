@@ -21,7 +21,7 @@ Note: once a complete assessment has been performed by a deploying Organisation 
 
 {% include important.html content="An underlying theme of the Target Operating Model is “Responsibility”. The deploying organisations own and are responsible for both the systems and the data in their local environment.
 In terms of accessing the NHS Digital SMSP, deploying organisations must ultimately take responsibility for discharging these obligations to assess the risks which exist within their local context. Any other centrally imposed approach stifles local innovation and is not scalable.
-By defining a clear and documented assessment set (with associated guidelines and processes), the Target Operating Model provided the framework within which the local deploying organisation can discharge their obligations." %}
+By defining a clear and documented assessment set (with associated guidelines and processes), the Target Operating Model provides the framework within which the local deploying organisation can discharge their obligations." %}
 
 
 
