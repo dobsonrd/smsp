@@ -12,4 +12,7 @@ toc: false
 
 ToDo - Details of the test data for use with the NHS Digital SMSP Test Environments
 
+{% include testing.patient_data.html %}
+
+
 {% include links.html %}
