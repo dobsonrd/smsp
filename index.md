@@ -15,7 +15,7 @@ The NHS Digital demographics ITK spine mini service specification was published 
 
 ## What is the Spine Core SMSP
 * Provides an interface to simplify the technical integration into NHS Digital Personal Demographics Service (PDS)
-* A lighter weight compliance process using the NHS Digital self-certified approach ([Target Operating Model](smsp_tom.html)) to address clinical safety, operational readiness and Information Governance issues.
+* A lighter weight [assurance process](smsp_assurance_overview.html) using the NHS Digital self-certified approach ([Target Operating Model](smsp_tom.html)) to address clinical safety, operational readiness and Information Governance issues.
 * Is constrained for use by suitable organisations with whom the NHS Digital has a legal basis for sharing
 
 ## What does Spine Mini Service Provider do?
