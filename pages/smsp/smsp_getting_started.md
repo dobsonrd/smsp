@@ -61,7 +61,7 @@ openssl pkcs12 -in pkcs_filename.p12 -out pem_filename.pem -nodes -clcerts
 
 Using this file getNHSNumber.xml which contains a test patient example from the opentest  environment, execute the following curl command, substituting the certificate name and message endpoint (Opentest url shown in example). Note: the patient search details may need to be altered depending on the environment being accessed.
 
-$ curl -i -XPOST -H “SOAPAction: urn:nhs-itk:services:201005:getNHSNumber-v1-0” -H “content-type: text/xml” –cert pem_filename.pem -d @getNHSNumber.xml -k https://192.168.54.6/smsp/pds
+$ curl -i -X POST -H “SOAPAction: urn:nhs-itk:services:201005:getNHSNumber-v1-0” -H “content-type: text/xml” –E pem_filename.pem -d @getNHSNumber.xml -k https://192.168.54.6/smsp/pds
 
 Note: there are some variations in curl 7.43.0 on OS X, this is a working command line:
 
