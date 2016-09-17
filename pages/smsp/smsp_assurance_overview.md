@@ -10,26 +10,26 @@ toc: false
 
 ## SMSP Assurance Overview
 
-Through the following two scenarios of the outline of assurance is explained.
+Through the following two scenarios an approach to assurance which aims to hook into a standard development path is explained.
 
 ## Scenario 1 - New App Supplier with no customer
-Acme Online are developing a new online application providing clinical workflow management for health care professional, they would like to compare the local demographics (Patient Name, DOB, NHS Number, Address, Sex, Registered GP) with the NHS Digital Demographics system, and provide the clinician with the opportunity to update the local held data.
+Acme Online are developing a new online application providing clinical workflow management for health care professionals, they would like to compare the local demographics (Patient Name, DOB, NHS Number, Address, Sex, Registered GP) with the NHS Digital Demographics system, and provide the users with an opportunity to update locally held data.
 
-Their intended customers are mainly NHS healthcare trusts.
+Their intended customers are mainly NHS acute healthcare trusts.
 
 Currently they have no firm customers, but are confident they have a viable product and would like to progress development. 
 
 Acme Online are aware they need to be assured by NHS Digital, and would like to understand the process.
 
 ### Assessment
-The key point with this scenario (from an NHS Digital perspective) is that the supplier currently has no customer. The aim is to support the development of the product to a phase that NHS Digital can technically assure the solution. Once Acme Online have found a customer, the assurance process will be formally completed through a first of type deployment with their customer. Once completed the solution will be 'fully assured'.
+The key point with this scenario is that the supplier currently has no immediate customer. The aim is to support the development of the product to a phase that NHS Digital can technically assure the solution. Once Acme Online have found a customer, the assurance process will be formally completed with the [Target Operating Model](smsp_tom.html) being updated and through a first of type deployment with their customer. Once completed the solution will be 'fully assured'.
 
 ### How Scenario 1 is played out
-1. The Acme Online developer can use this site to understand how to develop against in the SMSP API. The [getting started](smsp_getting_started.html) page will allow a developer with suitable [environment](smsp_test_environments.html) access to very quickly connect to the SMSP API and start playing using the [test data](smsp_test_data.html) provided.
+1. The Acme Online developer can use this site to understand how to develop against in the SMSP API. The [getting started](smsp_getting_started.html) page will allow a developer with suitable [environment](smsp_test_environments.html) access to very quickly connect to the SMSP API and start playing using the [test data](smsp_test_data.html) provided. 
 
-2. The developer will be able to use [Test tools](smsp_test_tools.html) for local only development, and online  [environments](smsp_test_environments.html) available via N3 or Non-N3 connections.
+2. The developer will be able to use [Test tools](smsp_test_tools.html) for local only development, and online  [environments](smsp_test_environments.html) available via N3 or Non-N3 connections. In this case Acme Online have no N3 access, so have chosen to use the Opentest environment.
 
-3. Once the developer has understood the initial requirements to call the SMSP API, they will need to understand the web  service interface behaviour requirements (error handling, exceptions, vocabs), and the wider [foundation](foundations_reqs.html) and [demographics](demographics_reqs.html) functional requirements. These requirements cover such things as IG, Audit, Demographics specific.
+3. Once the developer has understood the initial requirements to call the SMSP API, they will need to understand the web service interface behaviour requirements (error handling, exceptions, vocabs), and the wider [foundation](foundations_reqs.html) and [demographics](demographics_reqs.html) functional requirements. These requirements cover such things as IG, Audit, Demographics specific.
 
 4. The developer will work to the point that the solution has implemented the following:
   * the smsp web service interface behaviours 
@@ -37,7 +37,7 @@ The key point with this scenario (from an NHS Digital perspective) is that the s
   * the demographics functional requirements
 
 5. Acme Online will provide two artifacts to NHS Digital:
-  * Acme Online will test the developed interface against the Toolkit Workbench (TKW) (Test tool](smsp_test_tools.html). This tool provides a suite of automated tests, which generate evidence for submission to NHS Digital.
+  * Acme Online will test the developed interface against the Toolkit Workbench (TKW) Autotest Manager [Test tool](smsp_test_tools.html). This tool provides a suite of automated tests, which generate evidence for submission to NHS Digital.
   * At the same time Acme Online will complete a Target Operating Model for submission to NHS Digital. 
 
 6. Assuming technical tests have passed, the next step is for Acme Online to connect into a Path-to-Live (PTL) environment. This step provides value to Acme Online as they will learn the endpoint registration steps and pipe-clean their network connect, important steps prior to going live.
