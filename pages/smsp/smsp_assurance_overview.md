@@ -37,7 +37,7 @@ The key point with this scenario is that the supplier currently has no immediate
   * the demographics functional requirements
 
 5. Acme Online will provide two artifacts to NHS Digital:
-  * Acme Online will test the developed interface against the Toolkit Workbench (TKW) Autotest Manager [Test tool](smsp_test_tools.html). This tool provides a suite of automated tests, which generate evidence for submission to NHS Digital.
+  * Acme Online will test the developed interface against the Autotest Manager [Test tool](smsp_test_tools.html). This tool provides a suite of automated tests, which generate evidence for submission to NHS Digital.
   * At the same time Acme Online will complete a Target Operating Model for submission to NHS Digital. 
 
 6. Assuming technical tests have passed, the next step is for Acme Online to connect into a Path-to-Live (PTL) environment. This step provides value to Acme Online as they will learn the endpoint registration steps and pipe-clean their network connect, important steps prior to going live.
