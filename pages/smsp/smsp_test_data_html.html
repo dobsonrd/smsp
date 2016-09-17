@@ -1,0 +1,17 @@
+---
+title: SMSP Test Data
+keywords: reference
+summary: "Details of the test data for use with the NHS Digital SMSP Test Environments"
+sidebar: mydoc_sidebar
+permalink: smsp_test_data.html
+folder: smsp
+toc: false
+---
+
+<h3>OpenTest - Test Data Details</h3>
+
+<ul>
+{% for patient in site.data.open_test_data %}
+  <li>{{ patient.FAMILY_NAME }}</li>
+{% endfor %}
+</ul>
