@@ -10,7 +10,7 @@ toc: false
 
 ## SMSP Developer Cheat Sheet
 
-{% include image.html file="smsp_cheatsheet" alt="smsp cheat sheet" caption="Spine Mini Services Developer Cheat Sheet" %}
+{% include image.html file="smsp_cheatsheet.png" alt="smsp cheat sheet" caption="Spine Mini Services Developer Cheat Sheet" %}
 
 | Explore| Build | Build | Test |
 | :--------- | :-----: |:-----: |:-----: |
