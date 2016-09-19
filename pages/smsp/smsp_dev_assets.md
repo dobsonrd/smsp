@@ -12,12 +12,12 @@ toc: false
 
 | Explore| Build | Build | Test |
 | :--------- | :-----: |:-----: |:-----: |
-| [Structure Definitions](https://github.com/nhsconnect/gpconnect-fhir/tree/develop/StructureDefinitions) | [Access Record Implementation Guide](accessrecord.html) | [Spine Security Proxy Integration Guide](integration_spine_security_proxy_implementation_guide.html) | [Development Environment(s)](development_environments.html) |
-| [Value Sets](https://github.com/nhsconnect/gpconnect-fhir/tree/develop/ValueSets) | [Appointment Management Implementation Guide](appointments.html) | [Development Example Code](https://github.com/nhsconnect/gpconnect-examples) | [Development Example Code](https://github.com/nhsconnect/gpconnect-examples) |
-| [Structure Definitions](https://github.com/nhsconnect/gpconnect-fhir/tree/develop/StructureDefinitions) | [Task Management Implementation Guide](tasks.html)  | |
-| [Operation Definitions](https://github.com/nhsconnect/gpconnect-fhir/tree/develop/OperationDefinitions) | | |
-| [FHIR Implementation Guide](development_fhir_api_guidance.html) | | |
+| [PDS Message Spec](https://isd.hscic.gov.uk/trud3/user/authenticated/group/41/pack/34/subpack/142/releases) |  |  | [Development Environment(s)](smsp_test_environments.html) |
+| [SMSP Functional Reqs - foundation](foundations_reqs.html) | | |
+| [SMSP Functional Reqs - demographics](demographics_reqs.html) | | |
+| [SMSP Functional Reqs - TRUD (for ref. only)](https://isd.hscic.gov.uk/trud3/user/authenticated/group/41/pack/30/subpack/126/releases) | | |
 | | | |
+
 
 
 {% include links.html %}
