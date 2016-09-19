@@ -12,7 +12,7 @@ toc: false
 
 | Explore| Build | Test |
 | :--------- |:-----: |:-----: |
-| [PDS Message Spec - TRUD](https://isd.hscic.gov.uk/trud3/user/authenticated/group/41/pack/34/subpack/142/releases) | [Java Reference Implementation](smsp_ref_impl.html)| [Development Environment(s)](smsp_test_environments.html) |
+| [PDS Message Spec - TRUD (inc. wsdl, xsd, examples)](https://isd.hscic.gov.uk/trud3/user/authenticated/group/41/pack/34/subpack/142/releases) | [Java Reference Implementation](smsp_ref_impl.html)| [Development Environment(s)](smsp_test_environments.html) |
 | [SMSP Functional Reqs - foundation](foundations_reqs.html) | [.NET Classes for ITK SOAP Services](http://developer.nhs.uk/downloads-data/net-itk-soap-framework/) |
 | [SMSP Functional Reqs - demographics](demographics_reqs.html) | |
 | [SMSP Functional Reqs - TRUD (for ref. only)](https://isd.hscic.gov.uk/trud3/user/authenticated/group/41/pack/30/subpack/126/releases) | |
